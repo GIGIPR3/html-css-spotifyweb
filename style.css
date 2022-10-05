@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(20,25,34);
+}
+
+/* struttura */
+
+.contenitore1{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* sidebar */
+
+.sidebar{
+    background-color: black;
+    width: 12%;
+    height: 100%;
+}
+
+
+/* sezione destra */
+
+.music-section{
+    width: 88vw;
+    height: 100%;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    text-align: end;
+}
+
+.pulsante-upgrade{
+    border: solid white 1px;
+    display: inline-block;
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 30px;
+    margin: 1%;
+    font-size: small;
+}
+
+
+
+/* 2 sezione */
+.contenitore-bottom{
+    background-color: rgb(40,40,40);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* bottom left */
+.nome-foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.canzone{
+    width: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding-left: 0.5%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+.nome-canz{
+    margin-left: 15px;
+    margin-top: 13%;
+    font-size: small;
+}
+
+.titolo-canzone{
+    font-size: medium;
+}
+
+.artista{
+    color: lightgray;
+}
+
+.img-canzone{
+    background-image: url(./img/sinister.jpeg);
+    height: 70px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* bottom center */
+
+.bottom-center{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pulsanti-musica{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto; 
+    padding-top: 3%;   
+}
+
+.barra-musica{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.barra-canzone{
+    width: 80%;
+    height: 20%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+
+
+/* bottom right */
+
+.bottom-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+    align-items: center;
+}
+
+.volume-slide{
+    width: 45%;
+    height: 5%;
+    border-radius: 30px;
+    background-color: white;
+}
