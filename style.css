@@ -129,7 +129,9 @@ body{
 }
 
 .recent{
-    
+    font-size: larger;
+    margin-top: 5%;
+    margin-left: 2%;
 }
 
 /* 2 sezione */
