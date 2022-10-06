@@ -48,11 +48,16 @@ body{
 .icona, .voce-menu{
     display: inline-block;
     margin-top: 5%;
+    text-align: center;
 }
 
 .icona{
     font-size: larger;
     margin-right: 5%;
+}
+
+.bianco-bordo-verde{
+    padding-bottom: 2%;
 }
 
 .playlist-zone{
@@ -77,6 +82,23 @@ body{
     margin-top: 15%;
 }
 
+.nome-playlist:hover{
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.playlist-title:hover{
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.white-hover:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .nome-playlist{
     margin-top: 10%;
 }
@@ -92,6 +114,13 @@ body{
     color: white;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.bianco-bordo-verde:hover{
+    color: white;
+    border-bottom: 2px solid green;
+    transition: 0.1s;
+    cursor: pointer;
 }
 
 /* sezione destra */
@@ -117,6 +146,12 @@ body{
     border-radius: 30px;
     margin: 1%;
     font-size: small;
+    transition: 0.1s;
+}
+
+.pulsante-upgrade:hover{
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .categorie{
@@ -128,6 +163,22 @@ body{
     margin: auto;
     margin-top: 7%;
     color: grey;
+}
+
+.menu-hover{
+    padding-bottom: 5%;
+}
+
+
+.menu-hover:hover{
+    color: white;
+    border-bottom: 3px solid green;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.height40{
+    height: 40px;
 }
 
 .recent{
