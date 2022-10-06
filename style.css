@@ -151,6 +151,21 @@ body{
     width: 100%;
 }
 
+.didascalia{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.titolo-didascalia{
+    font-size: larger;
+}
+
+.artista-2{
+    color: gray;
+    font-size: small;
+    margin-top: 3%;
+}
+
 
 
 
