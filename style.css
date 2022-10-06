@@ -37,6 +37,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     color: grey;
+    z-index: 1;
 }
 
 .logo{
@@ -102,10 +103,11 @@ body{
 }
 
 .header{
-    background-color: rgba(0, 0, 0, 0.562);
+    background-color: rgba(0, 0, 0, 0.651);
     width: 100%;
     text-align: end;
-    position: sticky;
+    position: fixed;
+    right: 0;
 }
 
 .pulsante-upgrade{
@@ -124,12 +126,13 @@ body{
     justify-content: space-between;
     font-size: small;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 7%;
     color: grey;
 }
 
 .recent{
-    font-size: larger;
+    font-size: x-large;
+    font-weight: bold;
     margin-top: 5%;
     margin-left: 2%;
 }
@@ -138,7 +141,7 @@ body{
     width: calc(100/6);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     margin: 2%;
 }
 
@@ -166,7 +169,14 @@ body{
     margin-top: 3%;
 }
 
+.sottotitolo{
+    font-size: small;
+}
 
+.sottotitolo{
+    color: grey;
+    margin: 0.5% 0% 0% 2%;
+}
 
 
 /* 2 sezione */
@@ -177,6 +187,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 2;
 }
 
 
