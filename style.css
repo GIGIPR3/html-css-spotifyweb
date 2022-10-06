@@ -9,6 +9,10 @@ html{
     color: white;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 body{
     background-color: rgb(20,25,34);
 }
@@ -28,20 +32,79 @@ body{
     background-color: black;
     width: 12%;
     height: 100%;
+    padding: 0.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
 }
 
+.logo{
+    width: 80%;
+    margin-bottom: 15%;
+}
+
+.icona, .voce-menu{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.icona{
+    font-size: larger;
+    margin-right: 5%;
+}
+
+.playlist-zone{
+    margin-top: 20%;
+}
+
+.playlist{
+    display: inline-block;
+}
+
+.aggiungi{
+    display: inline-block;
+    background-color: rgb(163,163,163);
+    font-size: xx-large;
+    padding: 1% 7%;
+    color: black;
+    margin-right: 5%;
+}
+
+.nome-playlist-zone{
+    font-size: medium;
+    margin-top: 15%;
+}
+
+.nome-playlist{
+    margin-top: 10%;
+}
+
+.linea{
+    width: 100%;
+    height: 3%;
+    background-color: grey;
+    margin-top: 5%;
+}
+
+.user{
+    color: white;
+    
+}
 
 /* sezione destra */
 
 .music-section{
     width: 88vw;
     height: 100%;
+    overflow: scroll;
 }
 
 .header{
     background-color: rgba(0, 0, 0, 0.562);
     width: 100%;
     text-align: end;
+    position: sticky;
 }
 
 .pulsante-upgrade{
@@ -70,23 +133,23 @@ body{
 .nome-foto{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;    
 }
 
 .canzone{
-    width: 13%;
+    width: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1%;
-    padding-left: 0.5%;
+    padding: 0.5%;
     margin-bottom: 1%;
     align-items: center;
 }
 
 .nome-canz{
     margin-left: 15px;
-    margin-top: 13%;
     font-size: small;
 }
 
@@ -100,8 +163,8 @@ body{
 
 .img-canzone{
     background-image: url(./img/sinister.jpeg);
-    height: 70px;
-    width: 70px;
+    height: 6vh;
+    width: 3.3vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -134,9 +197,10 @@ body{
 }
 
 .barra-canzone{
-    width: 80%;
+    width: 75%;
     height: 20%;
     border-radius: 30px;
+    margin: 0% 1% 0% 1%;
     background-color: white;
 }
 
