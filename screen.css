@@ -264,6 +264,9 @@
         padding-bottom: 5%;
     }
 
+    .icon-none{
+        display: none;
+    }
 
 }
 
