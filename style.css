@@ -6,7 +6,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: red;
 }
 
 ::-webkit-scrollbar{
@@ -32,12 +32,13 @@ body{
     background-color: black;
     width: 12%;
     height: 100%;
-    padding: 0.8%;
+    padding: 0.8% 0.2% 0.8% 0.8%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: grey;
     z-index: 1;
+    overflow: scroll;
 }
 
 .logo{
@@ -71,10 +72,10 @@ body{
 .aggiungi{
     display: inline-block;
     background-color: rgb(163,163,163);
-    font-size: xx-large;
+    font-size: x-large;
     padding: 1% 7%;
     color: black;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .nome-playlist-zone{
@@ -104,7 +105,7 @@ body{
 }
 
 .linea{
-    width: 100%;
+    width: 90%;
     height: 3%;
     background-color: grey;
     margin-top: 5%;
@@ -336,3 +337,4 @@ body{
     border-radius: 30px;
     background-color: white;
 }
+

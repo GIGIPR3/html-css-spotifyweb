@@ -1,0 +1,35 @@
+/* adattamenti schermo*/
+
+@media screen and (max-width: 1620px){
+    .voce-menu{
+        font-size: small;
+    }
+
+    .playlist{
+        font-size: medium;
+    }
+    
+    .nome-playlist{
+        font-size: small;
+    }
+
+    .aggiungi{
+        padding: 0.9% 6%;
+    }
+
+    .white-hover{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1268px){
+    
+    .logo{
+        width: 90%;
+    }
+
+    .aggiungi{
+        font-size: x-large;
+    }
+
+}
