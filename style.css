@@ -170,13 +170,6 @@ body{
     color: grey;
 }
 
-.menu-hover{
-/*     padding: 5%; 
-    margin-left: 5%;
-    margin-right: 5%; */
-}
-
-
 .menu-hover:hover{
     color: white;
     border-bottom: 3px solid green;
@@ -207,6 +200,12 @@ body{
 .copertina{
     width: 15%;
     margin: 1%;
+}
+
+.copertina:hover{
+    scale: 1.1;
+    transition: 0.1s;
+    cursor: pointer;
 }
 
 .img-copertina{

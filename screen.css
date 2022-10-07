@@ -166,6 +166,8 @@
     .nome-foto{
         width: 80%;
     }
+
+
 }
 
 @media screen and (max-width: 882px){
@@ -195,19 +197,13 @@
         width: 20%;
     }
 
-    .contenitore-bottom{
-        height: 15vh;
-    }
-
-    .contenitore1{
-        height: 85vh;
-    }
 }
 
 @media screen and (max-width: 768px){
 
     .sidebar{
         width: 7%;
+        text-align: center;
     }
 
     .fav-fold{
@@ -250,11 +246,6 @@
         width: 23%;
     }
 
-    .categorie.div{
-        width: calc(100%/4);
-        flex-wrap: wrap;
-    }
-
     .titolo-didascalia{
         font-size: small;
     }
@@ -269,16 +260,11 @@
     }
 
     .contenitore-bottom{
-        height: 15vh;
+        height: 13vh;
+        padding-bottom: 5%;
     }
 
-    .contenitore1{
-        height: 85vh;
-    }
 
-    .bottom-right{
-        width: 25%;
-    }
 }
 
 @media screen and (max-width: 642px){
@@ -289,10 +275,6 @@
 
     .categorie{
         margin-top: 15%;
-    }
-
-    .fa-desktop,.fa-list{
-        display: none;
     }
 
     .bottom-right{
@@ -310,7 +292,7 @@
     }
 
     .copertina{
-        width: 25%;
+        width: 30%;
     }
 
     .sidebar{
@@ -321,15 +303,67 @@
         width: 100%;
     }
 
-    .contenitore-bottom{
-        height: 15vh;
+    .canzone{
+        width: 35%;
     }
 
-    .contenitore1{
-        height: 85vh;
+    .icon-none{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 548px){
+    .sidebar{
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .sidebar{
+        width: 9.5%;
+    }
+
+    .pulsanti-musica{
+        padding-top: 10%;
+    }
+
+    .titolo-didascalia{
+        font-size: xx-small;
+    }
+    
+    .copertina{
+        width: 45%;
     }
 
     .canzone{
-        width: 35%;
+        width: 36%;
+    }
+
+    .titolo-canzone{
+        font-size: small;
+    }
+
+    .nome-foto{
+        margin-left: 5%;
+    }
+
+    .bottom-right{
+        width: 33%;
+    }
+
+    .volume-slide{
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .sidebar{
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .pulsanti-musica{
+        width: 80%;
     }
 }
