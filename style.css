@@ -6,7 +6,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
-    color: red;
+    color: white;
 }
 
 ::-webkit-scrollbar{
@@ -44,6 +44,10 @@ body{
 .logo{
     width: 80%;
     margin-bottom: 15%;
+}
+
+.logo-small{
+    display: none;
 }
 
 .icona, .voce-menu{
@@ -156,10 +160,11 @@ body{
 }
 
 .categorie{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     font-size: small;
     margin: auto;
     margin-top: 7%;
@@ -180,6 +185,7 @@ body{
 
 .height40{
     height: 40px;
+
 }
 
 .recent{
@@ -193,7 +199,6 @@ body{
     width: calc(100/6);
     display: flex;
     flex-direction: row;
-/*     justify-content: space-between; */
     margin: 2%;
 }
 
@@ -247,15 +252,14 @@ body{
 .nome-foto{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;    
+    width: 70%;
 }
 
 .canzone{
     width: 15%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 1%;
     padding: 0.5%;
     margin-bottom: 1%;
@@ -263,7 +267,7 @@ body{
 }
 
 .nome-canz{
-    margin-left: 15px;
+    margin-left: 5%;
     font-size: small;
 }
 
@@ -277,10 +281,13 @@ body{
 
 .img-canzone{
     background-image: url(./img/sinister.jpeg);
-    height: 6vh;
-    width: 3.3vw;
+    height: 55px;
+    width: 55px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
 }
 
 /* bottom center */
@@ -298,14 +305,14 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin: auto; 
-    padding-top: 3%;   
+    padding-top: 4%;   
 }
 
 .barra-musica{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     align-items: center;
 }

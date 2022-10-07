@@ -1,6 +1,12 @@
-/* adattamenti schermo*/
+/* /* adattamenti schermo*/
 
 @media screen and (max-width: 1620px){
+
+    .pulsante-upgrade{
+        padding: 1% 1% 1% 1%;
+        margin: 1.3%;
+    }
+
     .voce-menu{
         font-size: small;
     }
@@ -20,16 +26,249 @@
     .white-hover{
         font-size: small;
     }
+
+    .canzone{
+        width: 20%;
+    }
+
+    .bottom-center{
+        width: 40%;
+    }
+
+    .barra-musica{
+        width: 90%;
+    }
+
+    .categorie{
+        margin-top: 10%;
+    }
+
+    .img-canzone{
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 1268px){
+
+    .pulsante-upgrade{
+        padding: 1% 1% 1% 1%;
+        margin: 1.3%;
+    }
+
+    .sidebar{
+        width: 14%;
+    }
     
     .logo{
-        width: 90%;
+        width: 100%;
     }
 
     .aggiungi{
         font-size: x-large;
     }
 
+    .titolo-didascalia{
+        font-size: large;
+    }
+
+    .bottom-center{
+        width: 40%;
+    }
+
+    .barra-musica{
+        width: 90%;
+    }
+
+    .img-canzone{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1219px){
+
+    .pulsante-upgrade{
+        padding: 1% 1% 1% 1%;
+        margin: 1.3%;
+    }
+
+    .titolo-didascalia{
+        font-size: medium;
+    }
+
+    .pulsanti-musica{
+        width: 45%;
+    }
+
+    .canzone{
+        width: 20%;
+    }
+
+    .bottom-right{
+        width: 17%;
+    }
+
+    .bottom-center{
+        width: 40%;
+    }
+
+    .barra-musica{
+        width: 90%;
+    }
+
+    .img-canzone{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1129px){
+    .sidebar{
+        width: 16%;
+    }
+
+    .categorie{
+        width: 75%;
+    }
+
+    .pulsante-upgrade{
+        padding: 1% 1% 1% 1%;
+        margin: 1.3%;
+    }
+
+    .img-canzone{
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 930px){
+    .sidebar{
+        width: 17%;
+    }
+
+    .categorie{
+        width: 80%;
+    }
+
+    .titolo-didascalia{
+        font-size: small;
+    }
+
+    .artista{
+        font-size: smaller;
+    }
+
+    .nome-foto{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 882px){
+    .sidebar{
+        width: 20%;
+    }
+
+    .categorie{
+        width: 90%;
+    }
+
+    .titolo-didascalia{
+        font-size: small;
+    }
+
+    .artista-2{
+        font-size: smaller;
+    }
+
+    .canzone{
+        width: 20%;
+    }
+
+    .bottom-right{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sidebar{
+        width: 23%;
+    }
+
+    .categorie{
+        width: 95%;
+    }
+
+    .titolo-didascalia{
+        font-size: x-small;
+    }
+
+    .artista-2{
+        font-size: xx-small;
+    }
+
+    .canzone{
+        width: 25%;
+    }
+
+    .bottom-right{
+        width: 25%;
+    }
+} 
+
+@media screen and (max-width: 768px){
+
+    .sidebar{
+        width: 7%;
+    }
+
+    .fav-fold{
+        display: none; 
+    }
+
+    .voce-menu{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+
+    .playlist-zone{
+        display: none;
+    }
+
+    .utente{
+        display: none;
+    }
+
+    .logo-small{
+        display: inline-block;
+        width: 110%;
+        margin-bottom: 40%;
+    }
+
+    .sidebar{
+        padding: 2% 2%;
+    }
+
+    .contenitore-brani-recenti{
+        width: calc(100/3);
+        flex-wrap: wrap;
+    }
+
+    .copertina{
+        width: 25%;
+    }
+
+    .categorie{
+        width: calc(100/4);
+        flex-wrap: wrap;
+    }
+
+    .titolo-didascalia{
+        font-size: small;
+    }
+    
 }
